@@ -1,0 +1,19 @@
+.congratulations-section {
+  background-color: #f6a720;
+  & h1 {
+    color: #ce3cc3;
+    padding-bottom: 32px;
+
+  }
+  & p {
+    padding-bottom: 16px;
+  }
+  & .fire-img {
+    display: flex;
+    align-items: end;
+    @media (max-width: 600px) {
+        display: block;
+        padding-bottom: 20px ;
+      }
+  }
+}

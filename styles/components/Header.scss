@@ -1,0 +1,9 @@
+.main-header {
+  background-color: #68c4d5;
+  & .header-title {
+    h1 {
+      color: #6e3cbc;
+      font-weight: 800;
+    }
+  }
+}

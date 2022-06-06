@@ -1,0 +1,21 @@
+.full-section {
+  background-color: #0e457f;
+  & h1 {
+    color: #6e3cbc;
+    padding-bottom: 32px;
+  }
+  & p {
+    padding-bottom: 16px;
+    span {
+      font-family: "Avenir Bold";
+    }
+  }
+
+  & .trojan-ig {
+    font-family: "Avenir Bold";
+    transition: all;
+    &:hover {
+      color: #6e3cbc;
+    }
+  }
+}

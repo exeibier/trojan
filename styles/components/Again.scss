@@ -1,0 +1,28 @@
+.again-section {
+  background-color: #6e3cbc;
+  & h1 {
+    color: #f6a720;
+    padding-bottom: 32px;
+
+  }
+  & p {
+    padding-bottom: 16px;
+  }
+  & .fire-img {
+    display: flex;
+    align-items: end;
+    @media (max-width: 600px) {
+        display: block;
+        padding-bottom: 20px ;
+      }
+  }
+
+  & .trojan-ig{
+    font-family: 'Avenir Bold';
+    transition: all;
+
+    &:hover{
+      color: #f6a720;
+    }
+  }
+}
