@@ -8,7 +8,6 @@ export default function tryAgain() {
       <Head>
         <title>Experiencias Trojan</title>
         <meta name="description" content="Experiencias trojan" />
-        <meta httpEquiv="Content-Security-Policy" content="upgrade-insecure-requests"/>
         <link rel="icon" href="/favicon.ico" />
 
       </Head>
