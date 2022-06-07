@@ -33,13 +33,13 @@ const Full = () => {
               className="trojan-ig"
               href="https://www.instagram.com/trojan_mx/?hl=es"
               target="_blank"
-              rel="noopener"
+              rel="noreferrer"
             >
               @TROJAN_MX
             </a>
           </p>
           <p className="normal">
-            UTILIZA LOS HASHTAGS <br/>
+            UTILIZA LOS HASHTAGS <br />
             <span>#SIGUETUINSTITO </span> <br />
             <span> #HAZLOTUYO</span>
           </p>
