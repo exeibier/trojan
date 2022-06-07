@@ -59,7 +59,7 @@ const Form = () => {
     };
 
     const response = await fetch(
-      "https://trojan.trendsetera.com.mx/api/v1/post/guest",
+      "http://trojan.trendsetera.com.mx/api/v1/post/guest",
       // "http://trojan-back.test/api/v1/post/guest",
       {
         method: "POST",
