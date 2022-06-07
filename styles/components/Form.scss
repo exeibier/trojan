@@ -46,6 +46,12 @@
       grid-template-columns: 1em 28em;
       gap: 0.5em;
       color: #fff;
+      @media (max-width: 414px) {
+        grid-template-columns: 2em 20em;
+      }
+      @media (max-width: 320px) {
+        grid-template-columns: 2em 15em;
+      }
       & input[type="radio"] {
         margin-right: 8px;
         -webkit-appearance: none;
