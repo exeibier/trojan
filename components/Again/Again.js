@@ -32,6 +32,7 @@ const Again = () => {
               className="trojan-ig"
               href="https://www.instagram.com/trojan_mx/?hl=es"
               target="_blank"
+              rel="noopener"
             >
               @TROJAN_MX
             </a>
