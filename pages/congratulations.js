@@ -8,6 +8,7 @@ export default function Congrats() {
       <Head>
         <title>Experiencias Trojan</title>
         <meta name="description" content="Experiencias trojan" />
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"/>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Congratulations/>
