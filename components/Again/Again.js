@@ -38,7 +38,7 @@ const Again = () => {
             </a>
           </p>
         </div>
-        <div className="surprise-img text-center pt-32">
+        <div className="surprise-img animate-bounce text-center pt-32">
           <Image
             src={surpriseEmoji}
             alt="icono-sorpresa"

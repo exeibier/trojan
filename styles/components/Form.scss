@@ -46,12 +46,14 @@
       grid-template-columns: 1em 28em;
       gap: 0.5em;
       color: #fff;
-      @media (max-width: 414px) {
-        grid-template-columns: 2em 20em;
-      }
-      @media (max-width: 320px) {
+      @media (max-width: 1024px) {
         grid-template-columns: 2em 15em;
+        justify-content: center;
       }
+      @media (min-width: 1920px){
+        grid-template-columns: 1em 38em;
+      }
+
       & input[type="radio"] {
         margin-right: 8px;
         -webkit-appearance: none;

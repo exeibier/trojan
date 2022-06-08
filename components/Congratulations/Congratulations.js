@@ -19,7 +19,7 @@ const Congratulations = () => {
         </div>
         <div className="md:flex">
           <div className="fire-img flex-1 text-center md:text-left ">
-            <div className="img">
+            <div className="img animate-bounce">
               <Image
                 className="fire"
                 src={fireIcon}
@@ -64,7 +64,7 @@ const Congratulations = () => {
             </p>
             <p className="bold">¡NOS VEMOS MUY PRONTO TROJANX!</p>
           </div>
-          <div className="smile-img text-center md:text-right flex-1 w-15">
+          <div className="smile-img text-center animate-bounce md:text-right flex-1 w-15">
             <Image
               src={smileIcon}
               alt="icono-sonrisa"
