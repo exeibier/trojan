@@ -1,21 +1,17 @@
 //Package
 import nodemailer from 'nodemailer'
 
-
-
 //Components
 import MailTemplate from '../../components/mails/inlined/contact'
 
 // create reusable transporter object using the default SMTP transport
   const transporter = nodemailer.createTransport({
-    host: "smtp.mailtrap.io",
+    host: "smtp.sendgrid.net",
     port: 465,
-    secure: false,
     auth: {
-      user: "c3380cf4df9109",
-      pass: "b35765be2c8f9e"
+      user: "apikey",
+      pass: "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"
     },
-    tls: {rejectUnauthorized: false}
   });
   export default async (req, res) => {
     const {body, method} = req
