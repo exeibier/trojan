@@ -6,11 +6,13 @@ import MailTemplate from '../../components/mails/inlined/contact'
 
   const transporter = nodemailer.createTransport({
     host: "smtp-relay.sendinblue.com",
-    port: 587,
+    port: 465,
+    secure: true,
     auth: {
       user: 'xabierhh@gmail.com',
       pass: process.env.SENDGRID_PASSWORD
     }
+    
   })
   export default async (req, res) => {
     const {body, method} = req
