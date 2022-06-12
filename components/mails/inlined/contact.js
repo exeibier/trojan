@@ -128,7 +128,7 @@ const MailTemplate = (props) => {
                             </tr>
                             <tr>
                               <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; text-align: center;">
-                                <img src="https://trojan-cdn.vercel.app/_next/image?url=%2Fmail.jpeg&w=3840&q=75" alt="mail" />
+                                <img src="https://trojan-cdn.vercel.app/_next/image?url=%2Fmail.jpeg&w=3840&q=75" style ='width: 500px; height:675px;' alt="mail" />
                               </td>
                             </tr>
                             <tr>
