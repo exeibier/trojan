@@ -25,7 +25,7 @@ export default async (req, res) => {
   transporter.sendMail(
     {
       to: `${body.email}`,
-      from: "noreply@trojan.com",
+      from: "acastellanos@trendsetera.com.mx",
       replyTo: `master@trendsetera.com.mx`,
       subject: "Experiencias trojan",
       html: `${MailTemplate({ view: view, data: body })}`,
