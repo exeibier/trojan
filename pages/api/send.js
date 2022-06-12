@@ -1,18 +1,35 @@
 //Package
 import nodemailer from 'nodemailer'
-
+const nodemailMailGun = require('nodemailer-mailgun-transport')
 //Components
 import MailTemplate from '../../components/mails/inlined/contact'
 
+const auth = {
+  auth: {
+    api_key:'82d53e2eb05bbbbbb79c399db788bb1a-523596d9-b2da2087',
+    domain: 'https://experienciaschurchanddwight.com/api/send'
+  }
+}
 // create reusable transporter object using the default SMTP transport
+  // const transporter = nodemailer.createTransport({
+  //   host: "smtp.sendgrid.net",
+  //   port: 465,
+  //   secure: false,
+  //   auth: {
+  //     user: "apikey",
+  //     pass: "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"
+  //   },
+  // });
+
+  // const transporter = nodemailer.createTestAccount(nodemailMailGun(auth))
   const transporter = nodemailer.createTransport({
-    host: "smtp.sendgrid.net",
+    host: "smtp.mailtrap.io",
     port: 465,
     auth: {
-      user: "apikey",
-      pass: "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"
-    },
-  });
+      user: "c3380cf4df9109",
+      pass: "b35765be2c8f9e"
+    }
+  })
   export default async (req, res) => {
     const {body, method} = req
 
