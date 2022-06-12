@@ -1,47 +1,47 @@
 //Package
-import nodemailer from "nodemailer";
-const nodemailerSendgrid = require("nodemailer-sendgrid");
+import nodemailer from 'nodemailer'
 //Components
-import MailTemplate from "../../components/mails/inlined/contact";
+import MailTemplate from '../../components/mails/inlined/contact'
 
-const transporter = nodemailer.createTransport(
-  nodemailerSendgrid({
-    apiKey: process.env.SENDGRID_PASSWORD,
+
+  const transporter = nodemailer.createTransport({
+    host: "smtp-relay.sendinblue.com",
+    port: 587,
+    auth: {
+      user: 'xabierhh@gmail.com',
+      pass: process.env.SENDGRID_PASSWORD
+    }
   })
-);
+  export default async (req, res) => {
+    const {body, method} = req
 
-export default async (req, res) => {
-  const { body, method } = req;
+    if(method !== 'POST') {
+      res.status(400).json({
+        error: 'Bad Request'
+      })
+      return
+    }
 
-  if (method !== "POST") {
-    res.status(400).json({
-      error: "Bad Request",
-    });
-    return;
-  }
+    const view = 'Experiencias'
 
-  const view = "Experiencias";
-
-  transporter.sendMail(
-    {
+    transporter.sendMail({
       to: `${body.email}`,
-      from: "acastellanos@trendsetera.com.mx",
-      replyTo: `master@trendsetera.com.mx`,
-      subject: "Experiencias trojan",
-      html: `${MailTemplate({ view: view, data: body })}`,
-    },
-    (error) => {
-      if (error) {
+      from: 'noreply@trojan.com',
+      replyTo: `noreply@trojan.com`,
+      subject: 'Experiencias trojan',
+      html: `${MailTemplate({view: view, data: body})}`
+    }, (error) => {
+      if(error){
         res.status(200).json({
           error: `Your message haven't been sent
-           Error: ${error.code}`,
-        });
+           Error: ${error.code}`
+        })
 
-        return;
+        return
       }
       res.status(200).json({
-        success: `Your message have been sent`,
-      });
-    }
-  );
-};
+        success: `Your message have been sent`
+      })
+    })
+  }
+
