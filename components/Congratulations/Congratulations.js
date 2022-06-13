@@ -36,10 +36,10 @@ const Congratulations = () => {
             </p>
             <p className="normal">
               POR FAVOR EL DÍA DEL EVENTO PRESENTA EL CORREO QUE TE LLEGÓ AL
-              MAIL QUE REGISTRASTE, ES INDISPENSABLE QUE LLEGUES PUNTUAL, CON TU
-              IDENTIFICACIÓN OFICIAL (INE/ PASAPORTE) Y COPIA DEL DOCUMENTO QUE
-              ÉSTAS PRESENTANDO, EL NOMBRE DE TU IDENTIFICACIÓN DEBERÁ COINCIDIR
-              CON EL NOMBRE QUE TE REGISTRASTE PARA HACER VÁLIDO TU ACCESO.
+              MAIL QUE REGISTRASTE. ES INDISPENSABLE QUE LLEGUES PUNTUAL CON TU
+              IDENTIFICACIÓN OFICIAL (INE/ PASAPORTE), EL NOMBRE DE TU
+              IDENTIFICACIÓN DEBERÁ COINCIDIR CON EL NOMBRE QUE TE REGISTRASTE
+              PARA HACER VÁLIDO TU ACCESO.
             </p>
             <p className="normal">
               PUEDES ASISTIR CON UN ACOMPAÑANTE COMO TU INVITADX (SÓLO UNA
@@ -60,7 +60,7 @@ const Congratulations = () => {
             </p>
             <p className="normal">
               SI GANASTE Y NO TE LLEGÓ TU CORREO DE CONFIRMACIÓN, POR FAVOR
-              ESCRIBE A EXPERIENCIAS@TROJAN.MX
+              ESCRIBE A TROJAN@TRENDSETERA.COM.MX
             </p>
             <p className="bold">¡NOS VEMOS MUY PRONTO TROJANX!</p>
           </div>
