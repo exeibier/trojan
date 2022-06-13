@@ -42,7 +42,7 @@ const Congratulations = () => {
               CON EL NOMBRE QUE TE REGISTRASTE PARA HACER VÁLIDO TU ACCESO.
             </p>
             <p className="normal">
-              PUEDES ASISTIR CON UNA ACOMPAÑANTE COMO TU INVITADX (SÓLO UNA
+              PUEDES ASISTIR CON UN ACOMPAÑANTE COMO TU INVITADX (SÓLO UNA
               PERSONA ESTRICTAMENTE POR GANADOR) O SOLX.
             </p>
             <p className="normal">
