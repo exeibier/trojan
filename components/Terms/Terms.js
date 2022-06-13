@@ -122,12 +122,12 @@ const Terms = () => {
         </ul>
         <p className="bold"> Sección 5. Cookies</p>
         <p className="normal">
-          Al igual que muchos sitios, usamos "cookies" para ayudarnos a recabar
+          Al igual que muchos sitios, usamos &quote;cookies&quote; para ayudarnos a recabar
           y almacenar información sobre visitas en nuestro Sitio Web. Un cookie
           es una cadena de solo texto que un sitio web transfiere al archivo de
           cookies del navegador en el disco duro de su computadora para que la
           Plataforma web recuerde quién es usted. Generalmente un cookie
-          contiene el nombre del dominio del cual proviene, la “duración” del
+          contiene el nombre del dominio del cual proviene, la &quote;duración&quote; del
           cookie y un valor, usualmente un número único generado aleatoriamente.
         </p>
         <p className="bold">
@@ -183,7 +183,7 @@ const Terms = () => {
           cada navegador esté ajustado a sus preferencias de cookies. Algunos
           navegadores modernos tienen una función que analiza las políticas de
           privacidad de la Plataforma web y permite al usuario controlar sus
-          necesidades de privacidad. Se conocen como funciones 'P3P' (Plataforma
+          necesidades de privacidad. Se conocen como funciones &lsquo;P3P&lsquo; (Plataforma
           de Preferencias de Privacidad). Usted puede eliminar fácilmente todo
           cookie que haya sido instalado en la carpeta de cookies de su
           navegador.
