@@ -101,7 +101,7 @@ const MailTemplate = (props) => {
           }
         }
       </style>
-      <span class="preheader" style="color: transparent; display: none; height: 0; max-height: 0; max-width: 0; mso-hide: all; opacity: 0; overflow: hidden; visibility: hidden; width: 0;">Un usuario del sitio web ha envíado un formulario de contacto.</span>
+      <span class="preheader" style="color: transparent; display: none; height: 0; max-height: 0; max-width: 0; mso-hide: all; opacity: 0; overflow: hidden; visibility: hidden; width: 0;">Experiencias Trojan</span>
       <table role="presentation" border="0" cellpadding="0" cellspacing="0" class="body" style="background-color: #0e457f; border-collapse: separate; mso-table-lspace: 0pt; mso-table-rspace: 0pt; width: 100%;">
         <tbody>
           <tr>
