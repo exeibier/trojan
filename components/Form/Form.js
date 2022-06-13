@@ -96,11 +96,11 @@ const Form = () => {
     validateOnBlur: false,
     validateOnChange: false,
     validationSchema: Yup.object({
-      name: Yup.string().required("¡El nombre esl obligatorio!"),
+      name: Yup.string().required("¡El nombre es obligatorio!"),
       last_name_first: Yup.string().required(
-        "¡El apellido paterno esl obligatorio!"
+        "¡El apellido paterno es obligatorio!"
       ),
-      last_name: Yup.string().required("¡El apellido materno esl obligatorio!"),
+      last_name: Yup.string().required("¡El apellido materno es obligatorio!"),
       email: Yup.string()
         .email("El email no es valido")
         .required("¡El email esl obligatorio!"),
