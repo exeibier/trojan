@@ -1,0 +1,24 @@
+.footer {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 18px;
+  & a{
+    font-family: 'avenir bold';
+    color: #fff;
+  }
+  &.index{
+    background-color: #0e457f;
+
+  }
+  &.congratulations{
+    background-color: #f6a720;
+  }
+  &.full{
+    background-color: #0e457f;
+
+  }
+  &.again{
+    background-color: #6e3cbc;
+  }
+
+}

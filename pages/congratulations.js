@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Congratulations from "../components/Congratulations/Congratulations";
+import Footer from "../components/Footer/Footer";
 
 
 export default function Congrats() {
@@ -12,6 +13,8 @@ export default function Congrats() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Congratulations/>
+      <Footer link={'/privacy'} bgFooter={'congratulations'}/>
+
     </div>
   );
 }

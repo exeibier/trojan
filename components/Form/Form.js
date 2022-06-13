@@ -45,7 +45,7 @@ const Form = () => {
       },
     });
 
-    return response
+    return response;
   };
   const submitHandler = useCallback(async (input) => {
     event.preventDefault();
@@ -70,14 +70,14 @@ const Form = () => {
     );
     const res = await response.json();
     if (res.description === "guest") {
-      sendEmail(data)
+      sendEmail(data);
       Router.push("/congratulations");
     } else if (res.description === "reject") {
       Router.push("/again");
     } else if (res.description === "full") {
       Router.push("/full");
     }
-  }, []);
+  }, "");
 
   const formik = useFormik({
     initialValues: {
@@ -89,6 +89,8 @@ const Form = () => {
       products: "",
       logo: "",
       activity: "",
+      agreement: false,
+      elder: false,
       isGuest: false,
     },
     validateOnBlur: false,
@@ -106,7 +108,9 @@ const Form = () => {
         .typeError("Debes poner un número teléfonico")
         .required("¡El teléfono esl obligatorio!"),
       products: Yup.string().required("¡Menciona uno de nuestros productos!"),
-      logo: Yup.string().required("¡Menciona cual es nuestro logo!"),
+      agreement: Yup.boolean().oneOf([true], 'Field must be checked'),
+      elder: Yup.boolean().oneOf([true], 'Field must be checked'),
+      agreement: Yup.string().required("¡Este campo es requerido!"),
       activity: Yup.string().required("¡Que se celebra el mes de junio!"),
     }),
     onSubmit: (vals) => {
@@ -203,6 +207,38 @@ const Form = () => {
             {formik.errors.tel ? (
               <div className="py-2">
                 <p className="font-bold text-white-500">{formik.errors.tel}</p>
+              </div>
+            ) : null}
+            <div className="checkbox-item">
+              <input
+                value="agreement"
+                name="agreement"
+                type="checkbox"
+                onChange={formik.getFieldProps("agreement").onChange}
+              />
+              ACEPTO EL USO DE MIS DATOS Y EL USO DE MI IMAGEN
+            </div>
+            {formik.errors.products ? (
+              <div className="py-2">
+                <p className="font-bold text-white-500">
+                  {formik.errors.agreement}
+                </p>
+              </div>
+            ) : null}
+            <div className="checkbox-item">
+              <input
+                value="elder"
+                name="elder"
+                type="checkbox"
+                onChange={formik.getFieldProps("elder").onChange}
+              />
+              CONFIRMO QUE TENGO MÁS DE 18 AÑOS
+            </div>
+            {formik.errors.products ? (
+              <div className="py-2">
+                <p className="font-bold text-white-500">
+                  {formik.errors.elder}
+                </p>
               </div>
             ) : null}
           </div>

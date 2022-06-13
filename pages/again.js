@@ -1,5 +1,6 @@
 import Head from "next/head";
 import Again from "../components/Again/Again";
+import Footer from "../components/Footer/Footer";
 
 
 export default function tryAgain() {
@@ -12,6 +13,7 @@ export default function tryAgain() {
 
       </Head>
       <Again/>
+      <Footer link={'/privacy'} bgFooter={'again'}/>
     </div>
   );
 }

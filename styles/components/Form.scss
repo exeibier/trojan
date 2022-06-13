@@ -31,6 +31,16 @@
         }
       }
     }
+
+    & .checkbox-item {
+      font-family: "avenir";
+      color: #fff;
+      padding: 10px 0;
+      & input {
+        font-family: "avenir";
+        margin-right: 10px;
+      }
+    }
   }
   & .bg-second-section {
     background-color: #6e3cbc;
@@ -50,7 +60,7 @@
         grid-template-columns: 2em 15em;
         justify-content: center;
       }
-      @media (min-width: 1920px){
+      @media (min-width: 1920px) {
         grid-template-columns: 1em 38em;
       }
 

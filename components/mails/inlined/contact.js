@@ -31,6 +31,9 @@ const MailTemplate = (props) => {
           table[class=body] span,
           table[class=body] a {
             font-size: 16px !important;
+            color: #ffff;
+            font-weight:bold;
+            text-align:center;
           }
           table[class=body] .wrapper,
           table[class=body] .article {
@@ -112,8 +115,8 @@ const MailTemplate = (props) => {
                           <tbody>
                             <tr>
                               <td style="font-family: sans-serif; font-size: 14px; vertical-align: top;">
-                                <p style="color: #ffff; font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; margin-bottom: 5px; margin-top: 5px;">¡Felicidades!,</p>
-                                <p style="color: #ffff;  font-family: sans-serif; font-size: 14px; font-weight: normal; margin: 0; margin-bottom: 5px; margin-top: 5px;">${data.name} ${data.last_name_first} ${data.last_name}</p>
+                                <p style="color: #ffff; font-family: sans-serif; font-size: 14px; font-weight: bold; margin: 0; margin-bottom: 5px; margin-top: 5px; text-align: center;">¡Felicidades!,</p>
+                                <p style="color: #ffff;  font-family: sans-serif; font-size: 14px;font-weight: bold; margin: 0; margin-bottom: 5px; margin-top: 5px; text-align: center;">${data.name} ${data.last_name_first} ${data.last_name}</p>
                               </td>
                             </tr>
                             <tr>
@@ -128,7 +131,7 @@ const MailTemplate = (props) => {
                             </tr>
                             <tr>
                               <td style="font-family: sans-serif; font-size: 14px; vertical-align: top; text-align: center;">
-                                <img src="https://trojan-cdn.vercel.app/_next/image?url=%2Fmail.jpeg&w=3840&q=75" style ='width: 500px; height:675px;' alt="mail" />
+                                <img src="https://trojan-cdn.vercel.app/_next/image?url=%2Fmailing.jpeg&w=1080&q=75" style ='width: 500px; height:675px;' alt="mail" />
                               </td>
                             </tr>
                             <tr>
