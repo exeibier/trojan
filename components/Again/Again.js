@@ -20,7 +20,7 @@ const Again = () => {
           <p className="bold">UNA O VARIAS DE TUS RESPUESTAS ESTÁN MAL</p>
           <p className="normal">
             TE INVITAMOS A ESTAR PENDIENTE DE LAS REDES SOCIALES DE TROJAN
-            MÉXICO PARA PODER ASISTIR A ALGUNAS DE NUESTRAS EXPERIENCIAS
+            MÉXICO PARA ASISTIR A LAS SIGUIENTES EXPERIENCIAS
           </p>
         </div>
         <div className="surprise-img animate-bounce text-center pt-32">
