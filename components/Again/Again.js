@@ -22,21 +22,6 @@ const Again = () => {
             TE INVITAMOS A ESTAR PENDIENTE DE LAS REDES SOCIALES DE TROJAN
             MÉXICO PARA PODER ASISTIR A ALGUNAS DE NUESTRAS EXPERIENCIAS
           </p>
-          <p className="bold">
-            #SIGUETUINSTITO <br />
-            #HAZLOTUYO
-          </p>
-          <p className="normal">
-            NO OLVIDES SEGUIRNOS COMO <br />
-            <a
-              className="trojan-ig"
-              href="https://www.instagram.com/trojan_mx/?hl=es"
-              target="_blank"
-              rel="noreferrer"
-            >
-              @TROJAN_MX
-            </a>
-          </p>
         </div>
         <div className="surprise-img animate-bounce text-center pt-32">
           <Image

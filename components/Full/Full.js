@@ -18,30 +18,8 @@ const Full = () => {
         </div>
         <div className="full-text text-center flex-1 w-70 ">
           <p className="bold">
-            PARA BRINDARTE UNA MEJOR EXPERIENCIA NUESTRO CUPO ES LIMITADO POR LO
-            QUE NUESTROS ACCESOS PARA ESTA ACTIVIDAD ESTÁN AGOTADOS
-          </p>
-          <p className="normal">
-            TE INVITAMOS A ESTAR PENDIENTE DE LAS REDES SOCIALES DE TROJAN
-            MÉXICO PARA REVISAR TODAS LAS ACTIVIDADES QUE PREPARÁMOS DURANTE EL
-            AÑO PARA TI
-          </p>
-
-          <p className="normal">
-            NO OLVIDES SEGUIRNOS COMO <br />
-            <a
-              className="trojan-ig"
-              href="https://www.instagram.com/trojan_mx/?hl=es"
-              target="_blank"
-              rel="noreferrer"
-            >
-              @TROJAN_MX
-            </a>
-          </p>
-          <p className="normal">
-            UTILIZA LOS HASHTAGS <br />
-            <span>#SIGUETUINSTITO </span> <br />
-            <span> #HAZLOTUYO</span>
+            EL CUPO DE ESTA EVENTO ES LIMITADO PARA BRINDARTE UNA MEJOR
+            EXPERIENCIA, POR LO QUE NUESTROS ACCESOS YA SE ENCUENTRAN AGOTADOS.
           </p>
         </div>
         <div className="cold-img text-center pt-32">

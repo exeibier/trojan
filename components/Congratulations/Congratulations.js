@@ -51,7 +51,7 @@ const Congratulations = () => {
               QUE CARACTERICE TU INSTINTO TROJANO.
             </p>
             <p className="bold">
-              #SIGUETUINSTITO <br />
+              #SIGUETUINSTINTO <br />
               #HAZLOTUYO
             </p>
             <p className="normal">
